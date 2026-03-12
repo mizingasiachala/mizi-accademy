@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #0d34e4 0%, #764ba2 100%);
+    color: #333;
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+/* Container and Layout */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+/* Header Styling */
+header {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(10px);
+}
+
+header h1 {
+    color: white;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+header p {
+    color: #f0f0f0;
+    font-size: 1.2rem;
+}
+
+/* Navigation Styling */
+nav {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 15px 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Section Styling */
+section {
+    background: white;
+    margin-bottom: 25px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #667eea;
+    border-bottom: 3px solid #667eea;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th {
+    background-color: #667eea;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+table td {
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Lists Styling */
+ul, ol {
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+/* Address and Contact Styling */
+address {
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    backdrop-filter: blur(10px);
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Hover and Interactive Effects */
+a {
+    color: #667eea;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #764ba2;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 4px solid #667eea;
+    padding-left: 15px;
+    color: #666;
+}
